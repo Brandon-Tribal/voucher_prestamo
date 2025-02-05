@@ -32,10 +32,17 @@ Este documento describe el flujo de la solicitud de préstamo personal en el sis
 ### ✅ Solicitud Aprobada
 ```json
 {
-  "numero_gestion": "GEST-123456",
-  "datos_personales": { "nombres": "Juan", "apellidos": "Pérez", "correo": "juan@example.com" },
-  "total_ingresos": 5000,
-  "total_egresos": 2000
+	"numero_gestion": "GEST-404962",
+	"datos_personales": {
+		"nombres": "Juan",
+		"apellidos": "Pérez",
+		"correo": "juan@example.com",
+		"telefono": "57777777",
+		"departamento": "Guatemala",
+		"municipio": "Guatemala"
+	},
+	"total_ingresos": 5500,
+	"total_egresos": 1500
 }
 ```
 
